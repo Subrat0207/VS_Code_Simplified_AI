@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} LOGIN PAGE {% endblock %}</title>
+</head>
+<body>
+{% block body %}
+
+ <img src="{{ url_for ('login.static' , filename = 'image_4.jpg' )}}" alt="not found" style="width:100%;">
+{% endblock %}
+</body>
+</html>

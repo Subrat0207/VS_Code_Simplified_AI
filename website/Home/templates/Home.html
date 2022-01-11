@@ -1,0 +1,7 @@
+{% extends 'base.html'%}
+
+<title>{% block title %} HOME PAGE {% endblock %}</title>
+
+{% block body %}
+  <img src="{{ url_for ('home.static' , filename = 'image_4.jpg' )}}" alt="not found" style="width:100%;">
+{% endblock %}
